@@ -1,7 +1,7 @@
 // Jeffrey Lansford
 // Chapter 9 problem
 // 10/20/2020
-// run with `node chapter9.js`
+// run with Node.js with the folling command `node chapter9.js`
 
 function sub1() {
    var x;
