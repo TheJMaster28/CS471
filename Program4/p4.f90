@@ -3,11 +3,13 @@ function create_matrix ( N ) result(A)
     integer, intent(in) :: N
     integer i,j
     real, dimension(:,:), allocatable :: A
-
+    ! integer,parameter :: seed = 86456
+  
+    ! call srand(seed)
     ALLOCATE(A(N,N+1))
     do i = 1,N
         do j=1,N
-            A(i,j) = sqrt (1.0d0/i*j)
+            A(i,j) = INT((rand() * (20 - 1 + 1)) + 1 )
         end do
     end do
 end function create_matrix  
@@ -89,9 +91,9 @@ program p4
         print *,"Test Case ",j 
         do n=1,5
             i = Sizes(n)
-            time = test_case(i)
+            time = test_case(i) *1000
             
-            print *, i, " ", time
+            print *, i, " ", time,"milliseconds"
         end do
     end do
 
