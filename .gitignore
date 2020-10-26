@@ -1,5 +1,5 @@
 *.png
 *.drawio
 *.ppt
-
+.vscode
 */__pycache__/
