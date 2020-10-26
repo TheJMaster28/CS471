@@ -1,0 +1,30 @@
+#!/bin/csh
+# Jeffrey Lansford
+# 9/9/2020
+# Program 2
+# C-Shell program to test the short circut implementation of C-Shell
+
+echo "A is always False and B is always True"
+
+set a = 0
+
+# Short Circut evalution on 'and' in C-Shell
+# C-Shell does not have function, so we can do call commands within the curly braces 
+# A evaluate to false and command B returns with exit code of 0 to evaluate to true  
+echo "A && B"
+if (  $a == 1 && { echo "        Within B" }) then
+    echo "True"
+else 
+    echo "False"
+endif
+
+# command B returns with exit code of 0 to evaluate to true and A evaluate to false
+echo "B && A"
+if (  { echo "        Within B" } && $a == 1) then
+    echo "True"
+else 
+    echo "False"
+endif
+
+
+exit
