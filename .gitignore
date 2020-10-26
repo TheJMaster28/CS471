@@ -1,3 +1,5 @@
 *.png
 *.drawio
 *.ppt
+
+*/__pycache__/
