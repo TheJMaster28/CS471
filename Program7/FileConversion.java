@@ -7,7 +7,7 @@ public class FileConversion {
         FileWriter fileOutput;
         try {
             fileInput = new FileInputStream("control-char.txt");
-            fileOutput = new FileWriter("control-char-output.txt");
+            fileOutput = new FileWriter("control-char-output_Java.txt");
             int c;
             boolean deleteMode = false;
             while ((c = fileInput.read()) != -1) {

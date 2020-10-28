@@ -3,7 +3,7 @@
 if __name__ == "__main__":
     print("Python")
     deletemode = False
-    fileOutput = open("control-char-output.txt", "w")
+    fileOutput = open("control-char-output-Python.txt", "w")
     with open("control-char.txt", "r", encoding="ascii") as fileInput:
         while True:
             c = fileInput.read(1)
