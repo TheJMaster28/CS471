@@ -8,12 +8,11 @@ import java.io.*;
 
 public class FileConversion {
     public static void main(String[] args) {
-        System.out.println("Java");
         FileInputStream fileInput;
         FileWriter fileOutput;
         try {
-            fileInput = new FileInputStream("control-char.txt");
-            fileOutput = new FileWriter("control-char-output-Java.txt");
+            fileInput = new FileInputStream(args[0]);
+            fileOutput = new FileWriter(args[1]);
             int c;
             boolean deleteMode = false;
             while ((c = fileInput.read()) != -1) {

@@ -5,14 +5,20 @@ Program 7
 Python version of removing content from file when seeing a Control-C and stopping when seeing a Control-B
 """
 
+import sys
+
 if __name__ == "__main__":
-    print("Python")
+
+    # command line arguemnts for file input and output
+    fileInputName = sys.argv[1]
+    fileOutputName = sys.argv[2]
+
     # set to to write input to output file
     deletemode = False
     # open output file for writing
-    fileOutput = open("control-char-output-Python.txt", "w")
+    fileOutput = open(fileOutputName, "w")
     # open corrupted file
-    with open("control-char.txt", "r", encoding="ascii") as fileInput:
+    with open(fileInputName, "r", encoding="ascii") as fileInput:
         while True:
             # read in one character at a time
             c = fileInput.read(1)

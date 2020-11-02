@@ -7,13 +7,14 @@
 use strict;
 use warnings;
 
-print "Perl\n";
+# file name arguments for in and out
+my ($fileInputName,$fileOutputName) = @ARGV;
 
 # open  Input file 
-open(INPUT, "<control-char.txt") or die "Couldnt open file, $!";
+open(INPUT, "<".$fileInputName) or die "Couldnt open file, $!";
 
 # open Output file
-open(OUTPUT, ">control-char-output-Perl.txt") or die "Couldnt open file, $!";
+open(OUTPUT, ">".$fileOutputName) or die "Couldnt open file, $!";
 
 # set to writing mode
 my $deleteMode = 0;
@@ -48,4 +49,5 @@ while(1) {
 close(INPUT) || die "Couldn't close file properly";
 close(OUTPUT) || die "Couldn't close file properly";
 
-print "Successfully wrote to control-char-output-Perl.txt\n"
+print "Successfully wrote to control-char-output-Perl.txt\n";
+
