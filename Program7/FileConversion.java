@@ -1,3 +1,9 @@
+/**
+    Jeffrey Lansford
+    11/2/2020
+    Program 7
+    Java version of removing content from file when seeing a Control-C and stopping when seeing a Control-B
+ */
 import java.io.*;
 
 public class FileConversion {
@@ -7,7 +13,7 @@ public class FileConversion {
         FileWriter fileOutput;
         try {
             fileInput = new FileInputStream("control-char.txt");
-            fileOutput = new FileWriter("control-char-output_Java.txt");
+            fileOutput = new FileWriter("control-char-output-Java.txt");
             int c;
             boolean deleteMode = false;
             while ((c = fileInput.read()) != -1) {
@@ -32,5 +38,6 @@ public class FileConversion {
 
         }
 
+        System.out.println("Successfully wrote to control-char-output-Java.txt");
     }
 }
