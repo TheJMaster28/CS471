@@ -40,4 +40,4 @@ if __name__ == "__main__":
         # close files
         fileInput.close()
         fileOutput.close()
-        print("Successfully wrote to control-char-output-Python.txt")
+        print(f"Successfully wrote to {fileOutputName}")

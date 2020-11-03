@@ -49,5 +49,5 @@ while(1) {
 close(INPUT) || die "Couldn't close file properly";
 close(OUTPUT) || die "Couldn't close file properly";
 
-print "Successfully wrote to control-char-output-Perl.txt\n";
+print "Successfully wrote to ".$fileOutputName."\n";
 
