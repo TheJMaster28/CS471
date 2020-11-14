@@ -1,3 +1,4 @@
+# Makefile for running program 5 times with inputs 2, 4, 8, 16
 run: compile
 	@for times in 1 2 3 4 5;               \
 	do                                     \

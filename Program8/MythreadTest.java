@@ -18,7 +18,7 @@
  * Jeffrey Lansford
  * 11/13/2020
  * Concurrecy
- * 
+ * This program get N (size) from command line input and creates a NxN matrix and calculates max, min, and average of the matrix using threads
  * 
  */
 import java.util.*;
@@ -31,7 +31,6 @@ public class MythreadTest {
 
     // we use static variables to help us connect the threads
     // to a common block
-    public static int N = 0;
     public static int[][] A;
 
     // public varible to hold n^2
@@ -47,14 +46,16 @@ public class MythreadTest {
 
     public static void main(String[] args) {
         try {
+            // get size from command line input
             int size = Integer.parseInt(args[0]);
-            // create the array from input
+            // create the arrays from input
             A = new int[size][size];
             min = new int[size];
             max = new int[size];
             average = new float[size];
 
-            total_size = size * size;
+            // do n^2 for averge calculations
+            total_size = size * (float) size;
 
             // fill array with random values
             Random rnd = new Random();
@@ -109,10 +110,9 @@ public class MythreadTest {
             System.out.println("Execution time in nanoseconds: " + timeElapsed);
             System.out.println("Execution time in milliseconds: " + timeElapsed / 1000000);
             System.out.printf("Max: %d\nMin: %d\nAverage: %f\n", max_Main, min_Main, total_average);
-            // System.out.println("Main Thread has N as value " + N);
+
             // This for loop will not stop execution of any thread,
             // only it will come out when all thread are executed
-
             System.out.println("Main thread exiting ");
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -123,7 +123,7 @@ public class MythreadTest {
 // each thread should access its row based on "ind"
 // and leave results I would suggest in a static array that you need
 // to create in MythreadTest
-
+// threads to calculate max, min and partail average per row
 class ThreadTest implements Runnable {
     private int i;
 
@@ -133,9 +133,6 @@ class ThreadTest implements Runnable {
 
     public void run() {
         try {
-            // MythreadTest.N += i; // this is a global variable in MythreadTest we add
-            // stuff together;
-
             // set base max and min
             MythreadTest.max[i] = MythreadTest.A[i][0];
             MythreadTest.min[i] = MythreadTest.A[i][0];
