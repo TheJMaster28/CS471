@@ -1,0 +1,166 @@
+javac MythreadTest.java
+----------------------------------------Run 1----------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Execution time in nanoseconds: 1159900
+Execution time in milliseconds: 1
+Max: 895754528
+Min: 658169920
+Average: 772916736.000000
+Main Thread has N as value 1
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Execution time in nanoseconds: 1658500
+Execution time in milliseconds: 1
+Max: 259843240
+Min: 137210616
+Average: 196032240.000000
+Main Thread has N as value 6
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 8~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Execution time in nanoseconds: 2270200
+Execution time in milliseconds: 2
+Max: 16765239
+Min: 8442968
+Average: 12899633.000000
+Main Thread has N as value 28
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 16~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Execution time in nanoseconds: 4462400
+Execution time in milliseconds: 4
+Max: 65441
+Min: 32954
+Average: 49154.199219
+Main Thread has N as value 120
+Main thread exiting 
+----------------------------------------Run 2----------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Execution time in nanoseconds: 1081500
+Execution time in milliseconds: 1
+Max: 812229984
+Min: 616194816
+Average: 744930688.000000
+Main Thread has N as value 1
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Execution time in nanoseconds: 1647300
+Execution time in milliseconds: 1
+Max: 268289360
+Min: 140283896
+Average: 204996672.000000
+Main Thread has N as value 6
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 8~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Execution time in nanoseconds: 2579800
+Execution time in milliseconds: 2
+Max: 16702602
+Min: 8480837
+Average: 12382169.000000
+Main Thread has N as value 28
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 16~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Execution time in nanoseconds: 4623000
+Execution time in milliseconds: 4
+Max: 65476
+Min: 32792
+Average: 48506.539063
+Main Thread has N as value 120
+Main thread exiting 
+----------------------------------------Run 3----------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Execution time in nanoseconds: 1167500
+Execution time in milliseconds: 1
+Max: 932522112
+Min: 735485504
+Average: 831473408.000000
+Main Thread has N as value 1
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Execution time in nanoseconds: 1537600
+Execution time in milliseconds: 1
+Max: 260415368
+Min: 135185704
+Average: 191929744.000000
+Main Thread has N as value 6
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 8~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Execution time in nanoseconds: 2330600
+Execution time in milliseconds: 2
+Max: 16642250
+Min: 8569074
+Average: 13118386.000000
+Main Thread has N as value 28
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 16~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Execution time in nanoseconds: 4050200
+Execution time in milliseconds: 4
+Max: 65498
+Min: 32934
+Average: 49534.800781
+Main Thread has N as value 120
+Main thread exiting 
+----------------------------------------Run 4----------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Execution time in nanoseconds: 957900
+Execution time in milliseconds: 0
+Max: 805054656
+Min: 545205952
+Average: 682966592.000000
+Main Thread has N as value 1
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Execution time in nanoseconds: 1383600
+Execution time in milliseconds: 1
+Max: 267993112
+Min: 143731848
+Average: 209837264.000000
+Main Thread has N as value 6
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 8~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Execution time in nanoseconds: 2364100
+Execution time in milliseconds: 2
+Max: 16732335
+Min: 8872349
+Average: 12639390.000000
+Main Thread has N as value 28
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 16~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Execution time in nanoseconds: 3534200
+Execution time in milliseconds: 3
+Max: 65308
+Min: 32778
+Average: 49698.781250
+Main Thread has N as value 120
+Main thread exiting 
+----------------------------------------Run 5----------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Execution time in nanoseconds: 960700
+Execution time in milliseconds: 0
+Max: 1033590848
+Min: 891987040
+Average: 990517248.000000
+Main Thread has N as value 1
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Execution time in nanoseconds: 1433400
+Execution time in milliseconds: 1
+Max: 267987024
+Min: 134260976
+Average: 213639936.000000
+Main Thread has N as value 6
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 8~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Execution time in nanoseconds: 2132400
+Execution time in milliseconds: 2
+Max: 16678130
+Min: 8553652
+Average: 12657817.000000
+Main Thread has N as value 28
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 16~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Execution time in nanoseconds: 3625600
+Execution time in milliseconds: 3
+Max: 65474
+Min: 32813
+Average: 50068.843750
+Main Thread has N as value 120
+Main thread exiting 
