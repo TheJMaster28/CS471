@@ -5,7 +5,7 @@
 ;; can list the input varibles in a CD,
 ;; and reduce CD using tautologies
 
-(require trace)
+;; (require trace)
 
 ;; 1) Counts how many opertors in CD
 ;; PRE: L must be a vaild CD
