@@ -3,5 +3,5 @@
 *.ppt
 .vscode
 */__pycache__/
-
+~*
 **.class
