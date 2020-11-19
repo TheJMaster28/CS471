@@ -107,6 +107,6 @@
         ;; if third element is a 0, then evaluate on second element
         ((eq? (evalcd (caddr CD)) 0) (evalcd (cadr CD)))
         ;; make a new list with the OR operator and evaluate on both the second and third element
-        (else (cons 'AND 
+        (else (cons 'OR 
             (list (evalcd (cadr CD))
             (evalcd (caddr CD)))))))
