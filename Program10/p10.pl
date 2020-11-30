@@ -1,7 +1,7 @@
 % Jeffrey Lansford
 % Prolog Lab
 % 11/30/20
-% Prolog porgram to find unique leaves of a binary tree
+% Prolog program to find unique leaves of a binary tree
 %    and to find the depth of the binary tree
 
 % 1) Tree Unique Function
@@ -12,7 +12,7 @@ uniq([], []).
 uniq([H|T], L) :-
     member(H, T), !,
     uniq(T, L).
-% append head into tail of the list with recurise  
+% append head into tail of the list with recursive    
 uniq([H|T], [H|L]) :-
     uniq(T, L).
 
@@ -22,7 +22,7 @@ flatten([], []).
 % return the atom of if list is only an atom
 flatten(X, [X]) :-
     atom(X), !.
-% flatten head and tail and append the twop list together
+% flatten head and tail and append the two list together
 flatten([H|T], Z) :-
     flatten(H, T1),
     flatten(T, T2),
